@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => PrincipalProvider()),
       ],
       child: MaterialApp(
-        debugShowCheckedModeBanner: false
+        debugShowCheckedModeBanner: false,
         title: 'Front Ms',
         theme: ThemeData.light().copyWith(backgroundColor: Colors.amber),
         home: const Principal(),
